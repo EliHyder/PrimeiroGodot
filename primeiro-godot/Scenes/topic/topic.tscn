@@ -80,7 +80,7 @@ tile_map_data = PackedByteArray("AABBAAsAAQAMAAUAAABBAAwAAQAMAAYAAABBAA0AAQAMAAY
 tile_set = ExtResource("3_3g188")
 
 [node name="Player" parent="." unique_id=1358016542 instance=ExtResource("1_250j4")]
-position = Vector2(73, 169)
+position = Vector2(73, 154)
 
 [node name="CAM" parent="." unique_id=560723121 instance=ExtResource("7_13s2y")]
 limit_right = 1850

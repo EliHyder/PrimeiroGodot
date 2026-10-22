@@ -71,7 +71,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_26q78")
 }],
 "loop": 1,
-"name": &"Idle",
+"name": &"idle",
 "speed": 10.0
 }, {
 "frames": [{
@@ -79,7 +79,7 @@ animations = [{
 "texture": ExtResource("3_bls4j")
 }],
 "loop": 1,
-"name": &"Jump",
+"name": &"jump",
 "speed": 5.0
 }, {
 "frames": [{
@@ -102,7 +102,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_afbqv")
 }],
 "loop": 1,
-"name": &"Walk",
+"name": &"walk",
 "speed": 12.0
 }]
 
@@ -120,5 +120,5 @@ shape = SubResource("RectangleShape2D_s5y8q")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1290689954]
 sprite_frames = SubResource("SpriteFrames_ql2qa")
-animation = &"Idle"
-autoplay = "Idle"
+animation = &"walk"
+autoplay = "idle"
