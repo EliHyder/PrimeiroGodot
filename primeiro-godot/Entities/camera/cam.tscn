@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://ff1drui2md15"]
+
+[ext_resource type="Script" uid="uid://c84nesotuw1l7" path="res://Entities/camera/cam.gd" id="1_gxinu"]
+
+[node name="CAM" type="Camera2D" unique_id=560723121]
+limit_left = 0
+limit_bottom = 208
+position_smoothing_enabled = true
+script = ExtResource("1_gxinu")
