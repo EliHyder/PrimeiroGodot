@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="PrimeiroGodot"
-run/main_scene="uid://bukie0hqqqtn1"
+run/main_scene="uid://brdwvuwedjwpu"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
@@ -25,6 +25,8 @@ window/stretch/aspect="expand"
 [global_group]
 
 Player=""
+Enimies=""
+Projectile=""
 
 [input]
 
@@ -58,6 +60,7 @@ duck={
 2d_physics/layer_2="player"
 2d_physics/layer_3="enemies"
 2d_physics/layer_4="level_end"
+2d_physics/layer_5="projectile"
 
 [physics]
 
